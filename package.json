@@ -1,0 +1,26 @@
+{
+  "name": "firebase-etours-booking-crud",
+  "version": "0.0.1",
+  "description": "## Definition This is a separate utility to be used in Booking Engine of Etours. The reason of separation is to make the ECOSYSTEM modular and modular.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etours-davao-inc/firebase-etours-booking-crud.git"
+  },
+  "keywords": [
+    "firebse",
+    "etours"
+  ],
+  "author": "Tom Claudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etours-davao-inc/firebase-etours-booking-crud/issues"
+  },
+  "homepage": "https://github.com/etours-davao-inc/firebase-etours-booking-crud#readme",
+  "devDependencies": {
+    "firebase": "^5.10.0"
+  }
+}
