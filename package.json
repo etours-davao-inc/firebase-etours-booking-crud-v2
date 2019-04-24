@@ -4,7 +4,7 @@
   "description": "## Definition This is a separate utility to be used in Booking Engine of Etours. The reason of separation is to make the ECOSYSTEM modular and modular.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node --presets es2015 test.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/etours-davao-inc/firebase-etours-booking-crud#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "firebase": "^5.10.0"
   }
 }
